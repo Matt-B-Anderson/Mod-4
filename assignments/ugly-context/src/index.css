@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.form-holder {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  background-color: lightcoral;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(2, 20px);
+  gap: 5px;
+}
+
+.form-container .title {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.form-container .description {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.form-container .image {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.form-container button {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.uglies {
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.uglies-image {
+  display: grid;
+  justify-content: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-position: center center;
+}
+
+.button-wrapper {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 10px;
+}

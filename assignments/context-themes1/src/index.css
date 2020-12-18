@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  align-content: center;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
+
+#button-holder {
+  padding-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.dark-theme {
+  text-align: center;
+  background-color: rgb(63, 63, 63);
+  color: rgb(190, 6, 6);
+}
+
+.dark-theme span {
+  background-color: rgb(42, 42, 42);
+}
+
+.dark-theme-button {
+  background-color: whitesmoke;
+  color: rgb(42, 42, 42);
+}
+
+.dark-theme p {
+  background-color: rgb(42, 42, 42);
+}
+
+.light-theme {
+  text-align: center;
+  background-color: skyblue;
+  color: coral;
+}
+
+.light-theme span {
+  background-color: rgb(95, 146, 167);
+}
+
+.light-theme p {
+  background-color: rgb(95, 146, 167);
+}
+
+.light-theme-button {
+  background-color: rgb(42, 42, 42);
+  color: whitesmoke;
+}
+
+#main {
+  padding: 100px;
+}
